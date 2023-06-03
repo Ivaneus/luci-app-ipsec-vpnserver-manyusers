@@ -17,6 +17,6 @@ EOF
 
 # /etc/init.d/ipsecvpn disable && /etc/init.d/ipsecvpn stop
 # rm -f /etc/init.d/ipsecvpn
-chmod 777 /etc/init.d/luci-app-ipsec-server && /etc/init.d/luci-app-ipsec-server enable
+chmod 777 /etc/init.d/ipsecvpn && /etc/init.d/ipsecvpn enable
 rm -rf /tmp/luci-*cache
 exit 0
