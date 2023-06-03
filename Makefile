@@ -10,7 +10,7 @@ LUCI_DEPENDS:=+strongswan +strongswan-default +strongswan-mod-xauth-generic +str
 LUCI_PKGARCH:=all
 PKG_VERSION:=1
 PKG_RELEASE:=8-20200513-xiaoqingfengMod
-
+PKG_NAME:=luci-app-ipsec-vpnserver-manyusers
 include $(TOPDIR)/feeds/luci/luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
